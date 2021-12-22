@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Source Code Pro", "sans-serif";
+}
+
+body {
+  background-color: rgb(221, 245, 221);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.container {
+  padding: 2.5em;
+  margin: 1em auto;
+  width: 70vw;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(14, 139, 14);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+.container header {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+#title {
+  font-size: 2.5em;
+  margin-bottom: 0.25em;
+}
+
+#description {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.5em;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 10em;
+  font-size: 1em;
+  background-color: rgb(200, 243, 200);
+  border-radius: 5px;
+  padding: 0.5em;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+label,
+p,
+div {
+  font-size: 1.1em;
+  color: white;
+}
+
+.label {
+  font-weight: 700;
+}
+input,
+select {
+  padding: 0.75em;
+  font-size: 1em;
+  background-color: rgb(200, 243, 200);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#check-all-apply {
+  font-size: 0.9em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5em;
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+button {
+  padding: 0.5em;
+  background-color: rgb(200, 243, 200);
+  color: black;
+  transition: 0.5s;
+  border: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  border: 1px solid rgb(200, 243, 200);
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+  color: darkolivegreen;
+  background-color: white;
+}
